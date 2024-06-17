@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap');
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+
+html,
+body,
+main {
+    height: 100%;
+    width: 100%;
+    background-color: #FAFAF9;
+    color: #E5EAF0;
+}
+
+
+html {
+    font-family: "Sora", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-weight: 400;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    width: 368px;
+    border-radius: 15px;
+    box-shadow: 0px 30px 100px 0px rgba(17, 23, 41, 0.05);
+    background-color: #FFFFFF;
+}
+
+.card-body,
+.card-footer {
+    padding: 16px 16px 20px 16px;
+}
+
+.card-footer {
+    margin-top: 0px;
+}
+
+.image {
+    height: 152px;
+    border-radius: 12px;
+    margin-bottom: 1rem;
+}
+
+.badge {
+    background-color: #E6D6FC;
+    color: #883AE1;
+    border-radius: 15px;
+    padding: 6px 20px;
+    font-weight: 700;
+    font-size: .625rem;
+}
+
+.title {
+    margin-top: 1rem;
+    margin-bottom: .4rem;
+    font-size: 1.125rem;
+    color: #20293A;
+    font-weight: 700;
+}
+
+.description {
+    color: #6C727F;
+    font-size: .875rem;
+    font-weight: 300;
+    line-height: 1.5;
+}
+
+.horizontal-line {
+    border-bottom: 1px solid #E5EAF0;
+    font-size: small;
+}
+
+.name {
+    color: #6C727F;
+    font-size: .75rem;
+}
